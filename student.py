@@ -58,6 +58,7 @@ class Piggy(PiggyParent):
     '''
     def Rose(self):
       print("This is for testing")
+      print("Here is a second line")
     def dance(self):
         """A higher-ordered algorithm to make your robot dance"""
         # TODO: check to see if it's safe before dancing
