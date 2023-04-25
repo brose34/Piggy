@@ -41,7 +41,7 @@ class Piggy(PiggyParent):
                 "f": ("Follow", self.follow),
                 "c": ("Calibrate", self.calibrate),
                 "q": ("Quit", self.quit),
-                "B": ("Rose" , self.Rose)
+                "B": ("Rose", self.Rose)
                 }
         # loop and print the menu...
         for key in sorted(menu.keys()):
@@ -57,6 +57,8 @@ class Piggy(PiggyParent):
     ****************
     '''
     def Rose(self):
+      self.fwd():
+      
       print("This is for testing")
       print("Here is a second line")
     def dance(self):
