@@ -70,7 +70,7 @@ class Piggy(PiggyParent):
         # lower-ordered example...
         self.right()
         time.sleep(2)
-        self.left(
+        self.left()
         time.sleep(2)
         self.right()
         time.sleep(2)
