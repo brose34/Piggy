@@ -72,6 +72,9 @@ class Piggy(PiggyParent):
         time.sleep(2)
         self.stop()
 
+    def  square():
+      pass
+
     def safe_to_dance(self):
         """ Does a 360 distance check and returns true if safe """
         pass
