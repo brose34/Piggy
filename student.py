@@ -41,7 +41,8 @@ class Piggy(PiggyParent):
                 "f": ("Follow", self.follow),
                 "c": ("Calibrate", self.calibrate),
                 "q": ("Quit", self.quit),
-                "B": ("Rose", self.Rose)
+                "B": ("Rose", self.Rose),
+                "sq":("Square", self.square)
                 }
         # loop and print the menu...
         for key in sorted(menu.keys()):
@@ -67,7 +68,7 @@ class Piggy(PiggyParent):
         # TODO: check to see if it's safe before dancing
         
         # lower-ordered example...
-        self.right(primary=50, counter=50)
+        self.right()
         time.sleep(2)
         self.stop()
 
