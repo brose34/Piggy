@@ -77,17 +77,17 @@ class Piggy(PiggyParent):
         self.stop()
 
     def  square():
-      self.fwd()
-      time.sleep(2)
-      self.right()
-      time.sleep(1)
-      self.fwd()
-      time.sleep(2)
-      self.right()
-      time.sleep(1)
-      self.fwd()
-      time.sleep(2)
-      
+        self.fwd()
+        time.sleep(2)
+        self.right()
+        time.sleep(1)
+        self.fwd()
+        time.sleep(2)
+        self.right()
+        time.sleep(1)
+        self.fwd()
+        time.sleep(2)
+        
       
     
 
