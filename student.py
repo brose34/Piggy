@@ -76,7 +76,7 @@ class Piggy(PiggyParent):
         time.sleep(2)
         self.stop()
 
-    def  square():
+    def  square(self):
         self.fwd()
         time.sleep(2)
         self.right()
